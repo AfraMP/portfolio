@@ -207,6 +207,13 @@ export default function HeroSummary() {
         <div className="lg:col-span-8 flex flex-col justify-between p-6 md:p-8 rounded-2xl border border-white/5 bg-gradient-to-b from-white/[0.01] to-transparent relative min-h-[480px]">
           {/* Top Group: Title Blocks */}
           <div className="space-y-1 text-left">
+            <div className="flex items-center gap-2 px-3 py-1 mb-6 text-sm bg-blue-900/20 border border-blue-500/30 rounded-full text-blue-300">
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+              </span>
+              Based in Dubai • Open to Hybrid, Onsite (UAE) & Remote Worldwide
+            </div>
             <motion.h1
               initial={{ opacity: 0, x: -15 }}
               animate={{ opacity: 1, x: 0 }}
